@@ -1,4 +1,4 @@
-discord.py
+discord.py>=2.5.2
 Daug
 python-dotenv
-moviepy
+moviepy>=2.0.0

@@ -12,7 +12,7 @@ class MyBot(commands.Bot):
         super().__init__(
             command_prefix=commands.when_mentioned_or('$ '),
             help_command=None,
-            intents=discord.Intents.all(),
+            intents=discord.Intents.default(),
         )
 
     async def setup_hook(self):
