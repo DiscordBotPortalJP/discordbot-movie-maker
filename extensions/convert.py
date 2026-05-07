@@ -1,7 +1,19 @@
+import functools
+
 import discord
 from discord import app_commands
 from discord.ext import commands
-from daug.utils.dpyexcept import excepter
+
+try:
+    from daug.utils.dpyexcept import excepter
+except Exception:
+    # 環境変数未設定などで dpyexcept の import に失敗した場合は no-op decorator を利用する
+    def excepter(func):
+        @functools.wraps(func)
+        async def wrapper(*args, **kwargs):
+            return await func(*args, **kwargs)
+
+        return wrapper
 
 try:
     from moviepy import AudioFileClip, ImageClip
