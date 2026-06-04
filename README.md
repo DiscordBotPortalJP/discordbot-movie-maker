@@ -1,4 +1,4 @@
-# discordbot movie-maker
+# discordbot-movie-maker
 
 Discord上で動画生成を補助するためのBotです。変換処理や拡張コマンドを通じて、サーバー上での動画作成フローを簡単にすることを目的としています。
 

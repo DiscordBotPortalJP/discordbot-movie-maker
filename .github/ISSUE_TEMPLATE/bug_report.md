@@ -1,7 +1,7 @@
 ---
-name: Bug report
+name: 不具合報告
 about: 不具合報告
-title: "[Bug] "
+title: "[不具合] "
 labels: bug
 assignees: ''
 ---

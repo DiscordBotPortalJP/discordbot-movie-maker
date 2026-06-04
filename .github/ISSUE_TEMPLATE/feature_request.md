@@ -1,7 +1,7 @@
 ---
-name: Feature request
+name: 機能要望
 about: 機能要望
-title: "[Feature] "
+title: "[機能要望] "
 labels: enhancement
 assignees: ''
 ---
